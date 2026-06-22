@@ -14,9 +14,7 @@ def mult(a, b):
         return "Ushbu ma'lumot turlarini o'zaro ko'paytirib bo'lmaydi"
     
 def main():
-    a = input("Birinchisi: ")
-    b = input("Ikkinchisi: ")
-    result = mult(a, b)
+    result = mult(5, [2, 3])
     print(result)
 
 main()
