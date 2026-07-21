@@ -1,0 +1,172 @@
+[
+    {
+        "number": "1",
+        "name": "Courtois",
+        "position": "Goalkeeper"
+    },
+    {
+        "number": "13",
+        "name": "Lunin",
+        "position": "Goalkeeper"
+    },
+    {
+        "number": "",
+        "name": "Dumfries",
+        "position": "Defender"
+    },
+    {
+        "number": "",
+        "name": "Konaté",
+        "position": "Defender"
+    },
+    {
+        "number": "",
+        "name": "Cucurella",
+        "position": "Defender"
+    },
+    {
+        "number": "3",
+        "name": "E. Militão",
+        "position": "Defender"
+    },
+    {
+        "number": "12",
+        "name": "Trent",
+        "position": "Defender"
+    },
+    {
+        "number": "17",
+        "name": "Asencio",
+        "position": "Defender"
+    },
+    {
+        "number": "18",
+        "name": "Á. Carreras",
+        "position": "Defender"
+    },
+    {
+        "number": "22",
+        "name": "Rüdiger",
+        "position": "Defender"
+    },
+    {
+        "number": "23",
+        "name": "F. Mendy",
+        "position": "Defender"
+    },
+    {
+        "number": "24",
+        "name": "Huijsen",
+        "position": "Defender"
+    },
+    {
+        "number": "",
+        "name": "Bernardo Silva",
+        "position": "Midfielder"
+    },
+    {
+        "number": "5",
+        "name": "Bellingham",
+        "position": "Midfielder"
+    },
+    {
+        "number": "6",
+        "name": "Camavinga",
+        "position": "Midfielder"
+    },
+    {
+        "number": "8",
+        "name": "Valverde",
+        "position": "Midfielder"
+    },
+    {
+        "number": "14",
+        "name": "Tchouaméni",
+        "position": "Midfielder"
+    },
+    {
+        "number": "15",
+        "name": "Arda Güler",
+        "position": "Midfielder"
+    },
+    {
+        "number": "21",
+        "name": "Brahim",
+        "position": "Forward"
+    },
+    {
+        "number": "7",
+        "name": "Vini Jr.",
+        "position": "Forward"
+    },
+    {
+        "number": "10",
+        "name": "Mbappé",
+        "position": "Forward"
+    },
+    {
+        "number": "11",
+        "name": "Rodrygo",
+        "position": "Forward"
+    },
+    {
+        "number": "16",
+        "name": "Gonzalo",
+        "position": "Forward"
+    },
+    {
+        "number": "30",
+        "name": "Mastantuono",
+        "position": "Forward"
+    },
+    {
+        "number": "",
+        "name": "Endrick",
+        "position": "Forward"
+    },
+    {
+        "number": "",
+        "name": "Mourinho",
+        "position": "Coach"
+    },
+    {
+        "number": "",
+        "name": "João Tralhão",
+        "position": "Assistant coach"
+    },
+    {
+        "number": "",
+        "name": "Pedro Machado",
+        "position": "Technical assistant"
+    },
+    {
+        "number": "",
+        "name": "Sami Khedira",
+        "position": "Technical assistant"
+    },
+    {
+        "number": "",
+        "name": "Nuno Santos",
+        "position": "Goalkeeper coach"
+    },
+    {
+        "number": "",
+        "name": "Antonio Dias",
+        "position": "Fitness coach"
+    },
+    {
+        "number": "",
+        "name": "Antonio Pintus",
+        "position": "Performance manager"
+    },
+    {
+        "number": "",
+        "name": "Sandro Carriço",
+        "position": "Sports Sciences"
+    },
+    {
+        "number": "",
+        "name": "Roberto Merella",
+        "position": "Head analyst"
+    }
+]

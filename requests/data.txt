@@ -1,0 +1,43 @@
+=== 1. BeautifulSoup kutubxonasi HTML kodlarini olib beradi
+    from bs4 import BeautifulSoup
+
+=== 2. requests kutubxonasi javob olishda
+    import requests
+
+=== 2.1 200 chiqsa ishlayapti, 404 chiqsa error
+    status_code
+
+=== 3. matn shaklida chiqarish
+    data = response.text
+
+=== 3.1 json shaklida chiqarish
+    data = response.json()
+
+=== 4. type()
+    print(type(response))               <class 'requests.models.Response'>
+    print(type(response.text))          <class 'str'>
+    print(type(response.json()))        <class 'dict'>
+
+=== 5. header qismini ko'rish
+    print(response.headers)
+
+=== 6. data uzunligi
+    print(f"Jami postlar soni: {len(data)}")
+
+=== 7. params
+params = {
+    'userId' : 1,
+    'id' : 4,
+}
+
+response = requests.get(url=url, params=params)
+print(f"URL: {response.url}")                   
+
+# Natija -> URL: https://jsonplaceholder.typicode.com/posts?userId=1&id=4
+
+=== 8. prettify()      # html kodini chiroyli konsolga chiqaradi 
+
+=== 9. title.name & title.text
+
+print(f"Tag: {title.name}")         # teg nomini chiqaradi.
+print(f"Text: {title.text}")        # tegdagi textni chiqaradi.
