@@ -16,4 +16,6 @@ Yangi loyihalar yaratilgan sanasi bo'yicha ketma-ketlikda qo'shib boriladi.
 | **04** | `dict` | listlar, ro'yhatlar va lo'g'atlar mavzulariga oid masalalar | Python (list, tuple, set, dict) | 04.07.2026 |
 | **05** | `oop` | class, oop va obyekt mavzulariga oid masalalar | Python (class, __init__, uuid4, random) | 10.07.2026 |
 | **06** | `requests` | requests, BeautifulSoup4 kutubxonalariga oid masalalar | Python (url, get() metodi, .text va .json()) | 21.07.2026 |
+| **07** | `python-def-check` | pythonda funksiyalarni (def) tekshirish. (assert kalit so'zi), (@pytest.mark.parametrize), (pytest.raises) | 23.07.2026 |
+| **08** | `python-class-check` | pythonda OOP'larni (class) tekshirish. (assert kalit so'zi), (@pytest.fixture) | 23.07.2026 |
 ---
