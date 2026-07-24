@@ -25,7 +25,7 @@ class Talaba:
 
     def get_course(self):
         return self.course
-    
+
     def set_course(self, new_course):
         self.course = new_course
 
@@ -45,20 +45,21 @@ class Fan:
 
     def get_name(self):
         return self.name
-    
+
     def get_students(self):
         return [talaba.get_fullname() for talaba in self.students]
-    
+
     def get_students_num(self):
         return self.student_num
-    
-talaba_1 = Talaba('javlon', 'saidov', 2005)
-talaba_2 = Talaba('ali', 'valiyev', 2000)
-talaba_3 = Talaba('hasan', 'husanov', 2003)
-talaba_4 = Talaba('anvar', 'yoriyev', 2008)
 
-matematika = Fan('Matematika')
-fizika = Fan('Fizika')
+
+talaba_1 = Talaba("javlon", "saidov", 2005)
+talaba_2 = Talaba("ali", "valiyev", 2000)
+talaba_3 = Talaba("hasan", "husanov", 2003)
+talaba_4 = Talaba("anvar", "yoriyev", 2008)
+
+matematika = Fan("Matematika")
+fizika = Fan("Fizika")
 
 matematika.add_student(talaba_1)
 matematika.add_student(talaba_2)

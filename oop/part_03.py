@@ -12,6 +12,7 @@ Admin klassiga foydalanuvchida yo'q yangi metodlar yozing, masalan, ban_user() m
 
 class Person:
     __person_num = 0
+
     def __init__(self, fname, lname, year, passport):
         self.fname = fname
         self.lname = lname

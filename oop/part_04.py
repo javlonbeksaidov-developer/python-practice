@@ -1,5 +1,7 @@
 from uuid import uuid4
+
 from part_03 import Person
+
 
 class Auto:
     __num_avto = 0
@@ -41,4 +43,4 @@ print(avto_1.get_km())
 print(avto_1.get_num_auto())
 
 
-odam = Person('javlon', 'saidov', 2005, 'aa1234567')
+odam = Person("javlon", "saidov", 2005, "aa1234567")

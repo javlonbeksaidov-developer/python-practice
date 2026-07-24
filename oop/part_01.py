@@ -1,5 +1,5 @@
 
-class Talaba():
+class Talaba:
     def __init__(self, fname, lname, year):
         self.fname = fname
         self.lname = lname
