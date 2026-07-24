@@ -1,5 +1,4 @@
-
-'''
+"""
 Meni zanjirband qil
 
 Umumiy funksiya zanjirini yozing
@@ -12,14 +11,15 @@ def mul30(x): return x * 30
 
 chain(50, [add10, mul30])
 # returns 1800
-'''
+"""
+
 
 def chain(init_val, functions):
     current_value = init_val
-    
+
     # Ro'yxatdagi har bir funksiyani ketma-ket chaqiramiz
     for func in functions:
         # joriy qiymatni funksiyaga beramiz va yangi qiymatni saqlaymiz
         current_value = func(current_value)
-        
+
     return current_value

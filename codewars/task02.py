@@ -1,8 +1,7 @@
-
-'''
+"""
 Satr bilan tugaydi?
 
-Yechimni shunday yakunlangki, agar birinchi argument (satr) 
+Yechimni shunday yakunlangki, agar birinchi argument (satr)
 ikkinchi argument (shuningdek, satr) bilan tugasa, u true qiymatini qaytaradi.
 
 Misollar:
@@ -12,10 +11,9 @@ Output: true
 
 Inputs: "abc", "d"
 Output: false
-'''
+"""
+
 
 def solution(text, ending):
     # your code here...
-    if text.endswith(ending):
-        return True
-    return False
+    return bool(text.endswith(ending))

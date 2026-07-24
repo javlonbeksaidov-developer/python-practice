@@ -1,5 +1,4 @@
-
-'''
+"""
 Evaluate a Polynomial Efficiently
 
 
@@ -20,7 +19,8 @@ The polynomial may contain a large number of coefficients.
 Coefficients may be positive, negative, or zero.
 x may be positive, negative, or zero.
 Your solution should be efficient enough to handle large inputs.
-'''
+"""
+
 
 def evaluate_polynomial(coefficients: list[int], x: int) -> int:
     total = []
@@ -29,5 +29,5 @@ def evaluate_polynomial(coefficients: list[int], x: int) -> int:
         ifoda = i * pow(x, uzunlik - 1)
         total.append(ifoda)
         uzunlik -= 1
-    
+
     return sum(total)

@@ -1,8 +1,7 @@
-
-'''
+"""
 Pifagor uchligi
 
-3 ta musbat butun sondan iborat tartiblanmagan massiv berilgan bo'lsa , 
+3 ta musbat butun sondan iborat tartiblanmagan massiv berilgan bo'lsa ,
 ushbu 3 ta butun sondan foydalanib, Pifagor uchligini[ n1, n2, n3 ] hosil qilish mumkinligini aniqlang .
 
 Pifagor uchligi 3 ta butun sonni quyidagicha tartiblashdan iborat:
@@ -22,13 +21,14 @@ Qaytish qiymatlari
 Python uchun: qaytarish TrueyokiFalse
 JavaScript uchun: return trueyokifalse
 Boshqa tillar: Namunaviy testlarni qaytaring 1yoki ularga murojaat qiling.0
-'''
+"""
+
 
 # input is an unsorted list of 3 positive integers
 def pythagorean_triple(integers):
     # return True if it is possible to form a Pythagorean triple with the 3 integers
     # return False if it is not possible
 
-    integers.sort()  
+    integers.sort()
     a, b, c = integers
-    return a*a + b*b == c*c
+    return a * a + b * b == c * c

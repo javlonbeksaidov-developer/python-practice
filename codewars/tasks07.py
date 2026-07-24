@@ -1,5 +1,4 @@
-
-'''
+"""
 How old will I be in 2099?
 
 Philip's just turned four and he wants to know how old he will be in various years in the future such as 2090 or 3044. His parents can't keep up calculating this so they've begged you to help them out by writing a programme that can answer Philip's endless questions.
@@ -11,7 +10,8 @@ Provide output in this format: For dates in the future: "You are ... year(s) old
 "..." are to be replaced by the number, followed and proceeded by a single space. Mind that you need to account for both "year" and "years", depending on the result.
 
 Good Luck!
-'''
+"""
+
 
 def calculate_age(year_of_birth, current_year):
     if year_of_birth > current_year:
