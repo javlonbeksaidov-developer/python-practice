@@ -1,4 +1,4 @@
-'''2-mashq: Xatoliklarni ushlash (pytest.raises)
+"""2-mashq: Xatoliklarni ushlash (pytest.raises)
 Topshiriq: Parolning mustahkamligini tekshiradigan funksiya yozing va noto'g'ri parollarda maxsus xatolik qaytarayotganini testlang.
 
 Funksiya: parolni_tekshir(parol: str)
@@ -8,7 +8,8 @@ Aks holda ValueError xatoligini berishi kerak.
 Kutilayotgan testlar:
 To'g'ri parol berilganda True qaytarishi.
 Uzunligi 8 dan kichik bo'lsa ValueError berishi (pytest.raises bilan tekshiring).
-Ichida raqam bo'lmasa ham ValueError berishi.'''
+Ichida raqam bo'lmasa ham ValueError berishi."""
+
 
 def check_password(password):
     if len(password) < 8:
@@ -21,11 +22,12 @@ def check_password(password):
 
 
 def main():
-    password = input('Password: ')
+    password = input("Password: ")
     if check_password(password):
         print("Tasdiqlandi.")
     else:
         print("Xato")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

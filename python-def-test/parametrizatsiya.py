@@ -5,10 +5,7 @@ Kutilayotgan test: @pytest.mark.parametrize yordamida kamida 5 xil yilni (kabisa
 '''
 
 def kabisa(year):
-    if year >= 0 and (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)):
-        return True
-    else:
-        return False
+    return bool(year >= 0 and (year % 400 == 0 or year % 4 == 0 and year % 100 != 0))
 
 
 def main():
